@@ -1,0 +1,6 @@
+{% for page in site.header_pages %}
+  {% assign p = site.pages | where: "path", page | first %}
+  {% if p.title %}
+    <a href="{{ p.url | relative_url }}" class="nav-link">{{ p.title }}</a>
+  {% endif %}
+{% endfor %}

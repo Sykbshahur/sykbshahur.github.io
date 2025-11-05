@@ -72,6 +72,12 @@ kramdown:
 sass:
   style: :expanded # You might prefer to minify using :compressed
 
+# Navigation menu
+header_pages:
+  - profile.md
+  - publications.md
+  - gallery.md
+
 # Use the following plug-ins
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
